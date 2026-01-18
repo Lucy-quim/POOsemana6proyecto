@@ -1,5 +1,6 @@
-from modelo import Usuario
-
-class TiendaService:
-    def saludar_usuario(self, usuario: Usuario):
-        return f"Bienvenido al sistema, {usuario.nombre}"
+#Clase usuario
+class Usuario:
+    def __init__(self, nombre, edad, correo):
+        self.nombre = nombre
+        self.edad = edad
+        self.correo = correo
